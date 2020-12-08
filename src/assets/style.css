@@ -10,7 +10,7 @@ body{
     display: flex;
     align-items: center;
     padding: 20px;
-    padding-right: 200px;
+    padding-right: 300px;
 }
 #toggle{
     height: 150px;
