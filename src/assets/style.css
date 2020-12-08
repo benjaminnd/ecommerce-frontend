@@ -10,7 +10,7 @@ body{
     display: flex;
     align-items: center;
     padding: 20px;
-    padding-right: 300px;
+    padding-right: 200px;
 }
 #toggle{
     height: 150px;
@@ -42,9 +42,6 @@ nav ul li{
     justify-content: space-around;
 }
 
-.container-footer .row {
-    padding-right: 100px;
-}
 
 .col-2{
     flex-basis: 50%;
@@ -278,6 +275,7 @@ h4 {
 }
 @media only screen and (max-width: 850px){
     #navBar {
+        padding-right: 50px;
         height: 150px;
         transition: height 0.6s
     }
