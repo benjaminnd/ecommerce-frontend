@@ -30,7 +30,7 @@ function Landing({toShow, changeShow}) {
     //get all products
     useEffect(()=>{
         const params = {
-            skip: Skip,
+            skip: 0,
             limit: Limit
         }
         getProducts(params, toShow)
